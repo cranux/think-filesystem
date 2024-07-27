@@ -1,14 +1,9 @@
 {
-    "name": "topthink/think-filesystem",
-    "description": "The ThinkPHP6.1 Filesystem Package",
+    "name": "cranux/think-filesystem",
+    "description": "The ThinkPHP8.0 Filesystem Package",
     "type": "library",
     "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "yunwuxin",
-            "email": "448901948@qq.com"
-        }
-    ],
+
     "autoload": {
         "psr-4": {
             "think\\": "src"
@@ -20,10 +15,8 @@
         }
     },
     "require": {
-        "php": ">=7.2.5",
         "topthink/framework": "^6.1|^8.0",
-        "league/flysystem": "^1.1.4",
-        "league/flysystem-cached-adapter": "^1.0"
+        "league/flysystem": "^3.0"
     },
     "require-dev": {
         "mikey179/vfsstream": "^1.6",
