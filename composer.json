@@ -21,7 +21,7 @@
     },
     "require": {
         "topthink/framework": "^6.1|^8.0",
-        "league/flysystem": "^2.0"
+        "league/flysystem": "^3.0"
     },
     "require-dev": {
         "mikey179/vfsstream": "^1.6",
